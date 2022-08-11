@@ -1,0 +1,67 @@
+@font-face {
+    font-family: fippsRegular;
+    src: url('web\ font/fipps-regular-webfont.woff');
+}
+.header {
+background: #f12558;
+background-position: center;
+margin: auto;
+font-size: xx-large;
+margin-top: -45px;
+margin-left: -8px;
+margin-right: -8px;
+text-align: center;
+filter: drop-shadow(0px 3px 0px rgba(0, 0, 0, 0.164));
+color: rgb(52, 52, 52);
+font-family: fippsRegular;
+}
+body{
+background: #f1be25;    
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.eggWatch {
+width: 600px;
+height: 600px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+position: relative;
+right: -50px;
+}
+button{
+max-width: 100%;
+max-height: 100%;
+
+}
+#leftButton {
+    width: 30px;
+    height: 30px;
+    background-color: #F1BE25;
+    margin-left: -60px;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+    left: -300px;
+}
+
+#rightButton {
+    background-color: #F1BE25;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+    left: -120px;
+}
+
+#screen {
+    height: 250px;
+    width: 225px;
+    background-color: black;
+    position: relative;
+    top: -450px;
+    right: -130px;
+}
