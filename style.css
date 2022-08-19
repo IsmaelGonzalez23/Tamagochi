@@ -81,3 +81,33 @@ font-size: small;
     left: 30px;
     bottom: -10px;
 }
+
+#health-bar {
+    position:relative;
+    width: 80px;
+    height: 16px;
+    border: 2px solid #000;
+    left: 10px;
+    top: 15px;
+}
+
+#health-bar-fill {
+    height: 16px;
+    background: #000;
+    transition: width 0.5s;
+}
+
+#happy-bar {
+    position: relative;
+    width: 80px;
+    height: 16px;
+    border: 2px solid #000;
+    left: 130px;
+    bottom: 5px;
+}
+
+#happy-bar-fill {
+    height: 16px;
+    background: #000;
+    transition: width 0.5s;
+}
