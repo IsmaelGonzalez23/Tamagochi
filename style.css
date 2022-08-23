@@ -57,7 +57,7 @@ max-height: 100%;
     left: -120px;
 }
 
-#screen {
+.screen {
     height: 250px;
     width: 225px;
     background-color: rgb(113, 118, 104);
@@ -82,7 +82,7 @@ font-size: small;
     bottom: -10px;
 }
 
-#health-bar {
+.health-bar {
     position:relative;
     width: 80px;
     height: 16px;
@@ -91,13 +91,13 @@ font-size: small;
     top: 15px;
 }
 
-#health-bar-fill {
+.health-bar-fill {
+    width: 100%;
     height: 16px;
     background: #000;
-    transition: width 0.5s;
-}
+    transition: width 60s;}
 
-#happy-bar {
+.happy-bar {
     position: relative;
     width: 80px;
     height: 16px;
@@ -106,8 +106,9 @@ font-size: small;
     bottom: 5px;
 }
 
-#happy-bar-fill {
-    height: 16px;
+.happy-bar-fill {
+    width: 100%;
+    height: 100%;
     background: #000;
-    transition: width 0.5s;
+    transition: width 60s;
 }

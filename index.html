@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./script.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="./style.css">
-
+    <link rel="stylesheet" href="./style.css"/>
     <title>Tamagochi!</title>
 </head>
 
@@ -15,22 +14,22 @@
 <p>A Pocket Pet</p>
 </div>
 <body>
- 
-<div class="eggWatch">
-    <img src="./tamagochi-egg.svg">
-        <button id="leftButton"></button>
+    
+    <div class="eggWatch">
+        <img src="./tamagochi-egg.svg">
+        <button id="leftButton" ></button>
         <button id="rightButton"></button>
-            <div id="screen">
-                <string id="health">Health</string>
-                <string id="happiness">Happiness</string>
-                     <div id="health-bar">
-                        <div id="health-bar-fill"></div>
-                    </div>
-                    <div id="happy-bar">
-                        <div id="happy-bar-fill"></div>
-                    </div>
-             </div>
-</div>
+        <div class="screen">
+            <string id="health">Health</string>
+            <string id="happiness">Happiness</string>
+            <div class="health-bar" id="myHealthBar">
+               <div class="health-bar-fill" data-stages="0,100"></div>
+           </div>
+           <div class="happy-bar" id="myHappyBar" >
+               <div class="happy-bar-fill" data-stages="0,100"></div>
+           </div>
+            </div>
+        </div>
 
 </body>
 </html>
